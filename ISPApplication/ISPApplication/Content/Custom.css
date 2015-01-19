@@ -1,0 +1,11 @@
+﻿body {
+        padding-top: 60px;
+        padding-bottom: 40px;
+      }
+.in.collapse + a.btn.showdetails:before {
+    content: 'Hide details «';
+}
+.collapse+a.btn.showdetails:before
+{
+    content:'Show details »';
+}
